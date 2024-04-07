@@ -1,0 +1,25 @@
+{
+  "name": "mycli-demo",
+  "version": "1.0.0",
+  "description": "mycli-demo",
+  "main": "index.js",
+  "bin": {
+    "mycli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.1",
+    "commander": "^12.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.6",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.0.1"
+  }
+}
